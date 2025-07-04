@@ -56,9 +56,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "go::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-go-Debug-072fb0f3d67cf6d26bc2.json",
-					"name" : "go",
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-19fe90d9c67173f1bae1.json",
+					"name" : "main",
 					"projectIndex" : 0
 				}
 			]

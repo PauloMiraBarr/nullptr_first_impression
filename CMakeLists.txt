@@ -4,5 +4,5 @@ project(project_nullptr_0)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(TextLoaderApp TextLoaderTest.cpp TextLoader.cpp)
-add_executable(go go.cpp)
+add_executable(main main.cpp)
 add_executable(TextLoader TextLoader.cpp)

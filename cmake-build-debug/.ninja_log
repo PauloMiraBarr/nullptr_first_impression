@@ -1,6 +1,6 @@
 # ninja log v6
 5	752	7733037932962909	CMakeFiles/TextLoaderApp.dir/main.cpp.obj	975322dde2024338
-85	510	7733060545566050	build.ninja	4bc54fa0a65b7513
+85	510	7733069814663595	build.ninja	4bc54fa0a65b7513
 2	388	7732798414126546	CMakeFiles/go.dir/go.cpp.obj	db4646a0f09a1529
 92	908	7733018962087288	CMakeFiles/main.dir/main.cpp.obj	ae102fe8bacd8734
 13	1235	7733037933041006	CMakeFiles/TextLoaderApp.dir/TextLoader.cpp.obj	691391c4ba15451e

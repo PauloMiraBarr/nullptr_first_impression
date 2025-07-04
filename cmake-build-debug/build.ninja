@@ -80,37 +80,37 @@ build TextLoaderApp.exe: CXX_EXECUTABLE_LINKER__TextLoaderApp_Debug CMakeFiles/T
   TARGET_PDB = TextLoaderApp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target go
+# Object build statements for EXECUTABLE target main
 
 
 #############################################
-# Order-only phony target for go
+# Order-only phony target for main
 
-build cmake_object_order_depends_target_go: phony || .
+build cmake_object_order_depends_target_main: phony || .
 
-build CMakeFiles/go.dir/go.cpp.obj: CXX_COMPILER__go_unscanned_Debug C$:/1-UTEC/S3-2025.1/Programacion$ 3/project_nullptr_0/go.cpp || cmake_object_order_depends_target_go
-  DEP_FILE = CMakeFiles\go.dir\go.cpp.obj.d
+build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/1-UTEC/S3-2025.1/Programacion$ 3/project_nullptr_0/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\go.dir
-  OBJECT_FILE_DIR = CMakeFiles\go.dir
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target go
+# Link build statements for EXECUTABLE target main
 
 
 #############################################
-# Link the executable go.exe
+# Link the executable main.exe
 
-build go.exe: CXX_EXECUTABLE_LINKER__go_Debug CMakeFiles/go.dir/go.cpp.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\go.dir
+  OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = go.exe
-  TARGET_IMPLIB = libgo.dll.a
-  TARGET_PDB = go.exe.dbg
+  TARGET_FILE = main.exe
+  TARGET_IMPLIB = libmain.dll.a
+  TARGET_PDB = main.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TextLoader
@@ -175,7 +175,7 @@ build TextLoader: phony TextLoader.exe
 
 build TextLoaderApp: phony TextLoaderApp.exe
 
-build go: phony go.exe
+build main: phony main.exe
 
 # =============================================================================
 # Folder targets.
@@ -185,7 +185,7 @@ build go: phony go.exe
 #############################################
 # Folder: C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug
 
-build all: phony TextLoaderApp.exe go.exe TextLoader.exe
+build all: phony TextLoaderApp.exe main.exe TextLoader.exe
 
 # =============================================================================
 # Built-in targets
