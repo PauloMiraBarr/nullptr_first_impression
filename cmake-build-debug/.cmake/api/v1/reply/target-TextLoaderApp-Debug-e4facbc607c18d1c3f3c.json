@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TextLoader.exe"
+			"path" : "TextLoaderApp.exe"
 		},
 		{
-			"path" : "TextLoader.pdb"
+			"path" : "TextLoaderApp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "TextLoader::@6890427a1f51a3e7e1df",
+	"id" : "TextLoaderApp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "TextLoader",
-	"nameOnDisk" : "TextLoader.exe",
+	"name" : "TextLoaderApp",
+	"nameOnDisk" : "TextLoaderApp.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,12 +90,19 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "TextLoaderTest.cpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,

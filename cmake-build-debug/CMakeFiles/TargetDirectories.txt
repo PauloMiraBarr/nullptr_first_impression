@@ -1,5 +1,4 @@
-C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug/CMakeFiles/TextLoaderApp.dir
 C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug/CMakeFiles/main.dir
-C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug/CMakeFiles/TextLoader.dir
+C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug/CMakeFiles/TextLoaderApp.dir
 C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug/CMakeFiles/rebuild_cache.dir

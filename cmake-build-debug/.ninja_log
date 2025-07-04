@@ -1,9 +1,13 @@
 # ninja log v6
-5	752	7733037932962909	CMakeFiles/TextLoaderApp.dir/main.cpp.obj	975322dde2024338
-85	510	7733069814663595	build.ninja	4bc54fa0a65b7513
+50	743	7733674194454980	CMakeFiles/main.dir/main.cpp.obj	ae102fe8bacd8734
 2	388	7732798414126546	CMakeFiles/go.dir/go.cpp.obj	db4646a0f09a1529
-92	908	7733018962087288	CMakeFiles/main.dir/main.cpp.obj	ae102fe8bacd8734
-13	1235	7733037933041006	CMakeFiles/TextLoaderApp.dir/TextLoader.cpp.obj	691391c4ba15451e
+28	565	7733681771772423	build.ninja	4bc54fa0a65b7513
+5	752	7733037932962909	CMakeFiles/TextLoaderApp.dir/main.cpp.obj	975322dde2024338
 393	946	7732798418036697	go.exe	b8e57e40091512ef
-702	937	7733058276379015	TextLoaderApp.exe	ce0730e28c21b818
-40	700	7733058269759519	CMakeFiles/TextLoaderApp.dir/TextLoaderTest.cpp.obj	15ebd2a9373a3f19
+10	1099	7733679678736976	CMakeFiles/TextLoaderApp.dir/TextLoader.cpp.obj	691391c4ba15451e
+573	766	7733680207458364	TextLoaderApp.exe	ce0730e28c21b818
+54	572	7733680202276681	CMakeFiles/TextLoaderApp.dir/TextLoaderTest.cpp.obj	15ebd2a9373a3f19
+56	1063	7733674194505862	CMakeFiles/main.dir/TextLoader.cpp.obj	f057c41362682ed7
+1063	1226	7733674204578960	main.exe	f3f73486214037b
+4	345	7733681861286512	CMakeFiles/main.dir/main.cpp.obj	ae102fe8bacd8734
+346	507	7733681864713668	main.exe	f3f73486214037b

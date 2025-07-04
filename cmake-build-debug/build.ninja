@@ -41,6 +41,45 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/1-UTEC/S3-2025.1/Programacion$ 3/project_nullptr_0/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target main
+
+
+#############################################
+# Order-only phony target for main
+
+build cmake_object_order_depends_target_main: phony || .
+
+build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/1-UTEC/S3-2025.1/Programacion$ 3/project_nullptr_0/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir
+
+build CMakeFiles/main.dir/TextLoader.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/1-UTEC/S3-2025.1/Programacion$ 3/project_nullptr_0/TextLoader.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\TextLoader.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main
+
+
+#############################################
+# Link the executable main.exe
+
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj CMakeFiles/main.dir/TextLoader.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = main.exe
+  TARGET_IMPLIB = libmain.dll.a
+  TARGET_PDB = main.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target TextLoaderApp
 
 
@@ -79,72 +118,6 @@ build TextLoaderApp.exe: CXX_EXECUTABLE_LINKER__TextLoaderApp_Debug CMakeFiles/T
   TARGET_IMPLIB = libTextLoaderApp.dll.a
   TARGET_PDB = TextLoaderApp.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target main
-
-
-#############################################
-# Order-only phony target for main
-
-build cmake_object_order_depends_target_main: phony || .
-
-build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/1-UTEC/S3-2025.1/Programacion$ 3/project_nullptr_0/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target main
-
-
-#############################################
-# Link the executable main.exe
-
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target TextLoader
-
-
-#############################################
-# Order-only phony target for TextLoader
-
-build cmake_object_order_depends_target_TextLoader: phony || .
-
-build CMakeFiles/TextLoader.dir/TextLoader.cpp.obj: CXX_COMPILER__TextLoader_unscanned_Debug C$:/1-UTEC/S3-2025.1/Programacion$ 3/project_nullptr_0/TextLoader.cpp || cmake_object_order_depends_target_TextLoader
-  DEP_FILE = CMakeFiles\TextLoader.dir\TextLoader.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TextLoader.dir
-  OBJECT_FILE_DIR = CMakeFiles\TextLoader.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target TextLoader
-
-
-#############################################
-# Link the executable TextLoader.exe
-
-build TextLoader.exe: CXX_EXECUTABLE_LINKER__TextLoader_Debug CMakeFiles/TextLoader.dir/TextLoader.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\TextLoader.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = TextLoader.exe
-  TARGET_IMPLIB = libTextLoader.dll.a
-  TARGET_PDB = TextLoader.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -171,8 +144,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build TextLoader: phony TextLoader.exe
-
 build TextLoaderApp: phony TextLoaderApp.exe
 
 build main: phony main.exe
@@ -185,7 +156,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug
 
-build all: phony TextLoaderApp.exe main.exe TextLoader.exe
+build all: phony main.exe TextLoaderApp.exe
 
 # =============================================================================
 # Built-in targets

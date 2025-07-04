@@ -72,6 +72,7 @@ void TextLoader::build_vocabulary() {
     // Mapea las palabras con un índice
     int index = 0;
     for (const auto& word : unique_words) {
+        vocabulary_list_.push_back(word);
         vocabulary_[word] = index++;
     }
 
@@ -116,5 +117,10 @@ const std::vector<TextExample>& TextLoader::get_dataset() const {
 
 size_t TextLoader::get_vocabulary_size() const {
     return vocabulary_.size();
+}
+
+
+const std::vector<std::string>& TextLoader::get_vocabulary_list() const {
+    return vocabulary_list_;
 }
 
