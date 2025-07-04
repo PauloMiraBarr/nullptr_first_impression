@@ -1,3 +1,8 @@
+### COSAS FALTANTES:
+- Falta refactorizar y restructurar el proyecto
+- Falta agregar un autograder catch2
+
+
 ### ESPECIFICACIONES DE TEXT LOADER:
 - `0`: no spam
 - `1`: spam
