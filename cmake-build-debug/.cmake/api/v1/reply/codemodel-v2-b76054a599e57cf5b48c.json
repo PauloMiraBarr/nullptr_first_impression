@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project_nullptr_0",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TextLoader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TextLoader-Debug-0b7812c8b69ee7bc3fac.json",
+					"name" : "TextLoader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TextLoaderApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TextLoaderApp-Debug-da20bf5b3ccd6a5a9c44.json",
+					"name" : "TextLoaderApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go-Debug-072fb0f3d67cf6d26bc2.json",
+					"name" : "go",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0/cmake-build-debug",
+		"source" : "C:/1-UTEC/S3-2025.1/Programacion 3/project_nullptr_0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
