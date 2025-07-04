@@ -1,6 +1,7 @@
 ### COSAS FALTANTES:
 - Falta refactorizar y restructurar el proyecto
-- Falta agregar un autograder catch2
+- Falta agregar un autograder catch2 (complicado pero muy elegante)
+    - O en su defecto hay que configurar todo lo demás manualmente (relativamente fácil pero muy simple)
 
 
 ### ESPECIFICACIONES DE TEXT LOADER:
