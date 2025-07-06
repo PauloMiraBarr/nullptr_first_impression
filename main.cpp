@@ -1,7 +1,8 @@
 #include <iostream>
-#include "main_auxiliar.h"
+#include "AppManager.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    utec::app::AppManager app;
+    app.show_menu();
     return 0;
 }

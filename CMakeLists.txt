@@ -4,7 +4,9 @@ project(project_nullptr_0)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(main main.cpp
-                    TextLoader.cpp)
+                    TextLoader.cpp
+                    DatasetUtils.cpp
+                    AppManager.cpp)
 # agregar todos los cpp de ser preciso :P
 
 
